@@ -1,0 +1,39 @@
+<ion-grid>
+
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+
+    <ion-col size="2">
+      <ion-button color="primary" class="ion-float-left" (click)="prev()" fill="clear" expand="block">Prev</ion-button>
+    </ion-col>
+
+    <ion-col size="8">
+      <ion-slides #slides>
+
+        <ion-slide>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Slide 1</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>Slide 1 contents...</ion-card-content>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Slide 2</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>Slide 2 contents...</ion-card-content>
+          </ion-card>
+        </ion-slide>
+
+      </ion-slides>
+    </ion-col>
+
+    <ion-col size="2">
+      <ion-button color="primary" class="ion-float-left" (click)="next()" fill="clear" expand="block">Next</ion-button>
+    </ion-col>
+
+  </ion-row>
+
+</ion-grid>

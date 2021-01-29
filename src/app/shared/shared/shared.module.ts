@@ -7,12 +7,13 @@ import { DateComponent } from '../date/date.component';
 import { CheckboxComponent } from '../checkbox/checkbox.component';
 import { SelectComponent } from '../select/select.component';
 import { HtmlSelectComponent } from '../html-select/html-select.component';
+import { SlidesComponent } from '../slides/slides.component';
 @NgModule({
-  declarations: [ToggleIssueComponent, RadioButtonComponent, DateComponent, CheckboxComponent, SelectComponent, HtmlSelectComponent],
+  declarations: [ToggleIssueComponent, RadioButtonComponent, DateComponent, CheckboxComponent, SelectComponent, HtmlSelectComponent, SlidesComponent],
   imports: [
     CommonModule,
     IonicModule
   ],
-  exports:[ToggleIssueComponent, RadioButtonComponent, DateComponent, CheckboxComponent, SelectComponent, HtmlSelectComponent]
+  exports:[ToggleIssueComponent, RadioButtonComponent, DateComponent, CheckboxComponent, SelectComponent, HtmlSelectComponent, SlidesComponent]
 })
 export class SharedModule { }
