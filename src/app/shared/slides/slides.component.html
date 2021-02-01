@@ -7,7 +7,7 @@
     </ion-col>
 
     <ion-col size="8">
-      <ion-slides #slides>
+      <ion-slides #slides (ionSlideDidChange)="handleSlideChanges($event)">
 
         <ion-slide>
           <ion-card>
