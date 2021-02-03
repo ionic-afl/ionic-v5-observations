@@ -8,7 +8,7 @@ import { IonSlides } from '@ionic/angular';
 })
 export class SlidesComponent implements OnInit {
 
-  private currentIndex: number;
+  public currentIndex: number = 0;
 
   constructor() { }
 
